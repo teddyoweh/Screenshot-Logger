@@ -23,7 +23,7 @@ $ pip install screenshotLogger
 
 ### Using it
 
-screenshotLogger was programmed with ease-of-use in mind. First, import screenshotLogger from screenshotLogger
+First, import screenshotLogger from screenshotLogger
 
 ```Python
 from screenshotLogger import screenshotLogger 
