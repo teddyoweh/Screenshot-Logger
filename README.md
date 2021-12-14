@@ -12,7 +12,7 @@ The screenshotLogger Program was written with fast use in mind. It provides the 
 
 ## Usage
 
-In the following paragraphs, I am going to describe how you can get and use Scrapeasy for your own projects.
+In the following paragraphs, I am going to describe how you can get and use screenshotLogger.
 
 ###  Getting it
 
@@ -23,7 +23,7 @@ $ pip install screenshotLogger
 
 ### Using it
 
-Scrapeasy was programmed with ease-of-use in mind. First, import Website and Page from Scrapeasy
+screenshotLogger was programmed with ease-of-use in mind. First, import screenshotLogger from screenshotLogger
 
 ```Python
 from screenshotLogger import screenshotLogger 
@@ -31,14 +31,21 @@ from screenshotLogger import screenshotLogger
 
  
 ## Initialize screenshotLogger 
-First, let's create a new Website object. For this manner, just provide the url of the main page. I will use the URL of a website that I created years ago: [fahrschule-liechti.com](http://www.fahrschule-liechti.com). 
+First, let's create a new screenshotLogger object. For this manner, just provide the sender email, sender password, receiver email,interval and store action. 
 
 ```Python
-sl = screenshotLogger('example@gmail.com','testpassword','receiver@gmail.com',3)
+ 
+sl = screenshotLogger(sender_email='example@gmail.com',
+                      sender_password='testpassword',
+                      send_to='receiver@gmail.com',
+                      interval=3,
+                      store='file')
 slv = sl.validate()
 
 
 sl.execute(slv)
+
+
 
 ```
 
