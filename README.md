@@ -1,6 +1,6 @@
 # screenshotLogger 
 
-ScreenshotLogger works just like a keylogger but instead of capturing keystroke,it captures the screen, stores it or sends via email. Scrapeasy is super easy to use and handles everything for you. Just specify what website you want to scrape and what media you want to receive back, and the rest is done for you.
+ScreenshotLogger works just like a keylogger but instead of capturing keystroke,it captures the screen, stores it or sends via email.
 
 # Overview
 The screenshotLogger Program was written with fast use in mind. It provides the following key features
